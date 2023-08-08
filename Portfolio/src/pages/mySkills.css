@@ -1,0 +1,14 @@
+.softSkill {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 100px;
+  padding-top: 2rem;
+}
+
+.certificate {
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 200px;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}

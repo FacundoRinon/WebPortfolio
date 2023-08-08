@@ -1,0 +1,211 @@
+@media (min-width: 1200px) {
+  .fotito {
+    margin-left: 50px;
+    position: relative;
+    top: 80px;
+    padding: 0;
+  }
+
+  .fotito img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .fila {
+    height: 20rem;
+    background-color: black;
+    margin: 0;
+  }
+
+  .fila2 {
+    height: 20rem;
+    background-color: rgb(22, 21, 21);
+    margin: 0;
+  }
+
+  .nombre {
+    margin-top: 10rem;
+    margin-left: 5%;
+    font-size: 4rem;
+  }
+
+  .fotoDeSitio {
+    width: 45%;
+  }
+
+  .webPic {
+    height: 15rem;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .fotito {
+    margin-left: 50px;
+    position: relative;
+    top: 110px;
+    padding: 0;
+  }
+
+  .fotito img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .fila {
+    height: 20rem;
+    background-color: black;
+    margin: 0;
+  }
+
+  .fila2 {
+    height: 20rem;
+    background-color: rgb(22, 21, 21);
+    margin: 0;
+  }
+
+  .nombre {
+    margin-top: 10rem;
+    margin-left: 5%;
+    font-size: 3rem;
+  }
+
+  .fotoDeSitio {
+    width: 50%;
+  }
+
+  .webPic {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 990px) {
+  .fotito {
+    margin-left: 50px;
+    position: relative;
+    top: 140px;
+    padding: 0;
+  }
+
+  .fotito img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .fila {
+    height: 20rem;
+    background-color: black;
+    margin: 0;
+  }
+
+  .fila2 {
+    height: 20rem;
+    background-color: rgb(22, 21, 21);
+    margin: 0;
+  }
+
+  .nombre {
+    margin-top: 10rem;
+    margin-left: 5%;
+  }
+
+  .fotoDeSitio {
+    width: 100%;
+  }
+
+  .webPic {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 599px) {
+  .fotito {
+    margin-left: 50px;
+    position: relative;
+    top: 130px;
+    padding: 0;
+  }
+
+  .fotito img {
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .fila {
+    height: 15rem;
+    background-color: black;
+    margin: 0;
+  }
+
+  .fila2 {
+    height: 15rem;
+    background-color: rgb(22, 21, 21);
+    margin: 0;
+  }
+
+  .nombre {
+    font-size: 2rem;
+    margin-top: 10rem;
+    margin-left: 5%;
+  }
+
+  .webPic {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+.myInfo {
+  background-color: rgb(22, 21, 21);
+}
+
+.container {
+  margin-top: 200px;
+}
+
+.cvBtn {
+  cursor: pointer;
+  background-color: rgb(22, 21, 21);
+}
+
+.cvBtn:hover {
+  transform: scale(1.1);
+}
+
+.contactMeBtn {
+  cursor: pointer;
+  background-color: rgb(22, 21, 21);
+}
+
+.contactMeBtn:hover {
+  transform: scale(1.1);
+}
+
+.mySkills {
+  background-color: black;
+}
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */

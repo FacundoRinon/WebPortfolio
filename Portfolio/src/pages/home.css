@@ -1,0 +1,43 @@
+.homeFont {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  padding-left: 4rem;
+}
+
+.homeBody {
+  background-color: rgb(22, 21, 21);
+}
+
+.contactMeBtn {
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  border: 2px solid green;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 3.5rem;
+}
+
+.cvBtn {
+  color: rgb(235, 6, 6);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  border: 2px solid rgb(235, 6, 6);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.homeModal {
+  background-color: rgb(22, 21, 21);
+  color: white;
+  border: solid 1px white;
+}
+
+.copyBtn {
+  background-color: rgb(22, 21, 21);
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: auto;
+}

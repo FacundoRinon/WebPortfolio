@@ -1,0 +1,50 @@
+.no-underline {
+  text-decoration: none !important;
+}
+
+body {
+  margin: 0;
+}
+
+/* Icons colors */
+
+.skillTecIcon {
+  height: 5rem;
+  width: 5rem;
+}
+
+.skillTecIcon:hover {
+  transform: scale(1.1);
+}
+
+.jsIcon:hover {
+  color: rgb(238, 255, 0);
+}
+
+.cssIcon:hover {
+  color: rgb(89, 191, 231);
+}
+
+.bootstrapIcon:hover {
+  color: purple;
+}
+
+.gitIcon:hover {
+  color: blueviolet;
+}
+
+.reactIcon:hover {
+  color: aqua;
+}
+
+.reduxIcon:hover {
+  color: blueviolet;
+}
+
+.mongoIcon:hover {
+  color: rgb(19, 211, 19) !important;
+}
+
+.nodeIcon:hover {
+  color: green;
+}
