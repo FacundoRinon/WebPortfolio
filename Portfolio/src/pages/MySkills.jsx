@@ -1,4 +1,5 @@
 import "./mySkills.css";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import Atropos from "atropos";
@@ -19,29 +20,35 @@ function MySkills() {
     import.meta.env.VITE_IMG_URL
   }/EscolaridadEconomia.pdf`;
 
-  const myAtropos = Atropos({
-    el: ".my-first-atropos",
-  });
+  useEffect(() => {
+    const myAtropos = Atropos({
+      el: ".my-first-atropos",
+    });
 
-  const myAtropos2 = Atropos({
-    el: ".my-second-atropos",
-  });
+    const myAtropos2 = Atropos({
+      el: ".my-second-atropos",
+    });
 
-  const myAtropos3 = Atropos({
-    el: ".my-third-atropos",
-  });
+    const myAtropos3 = Atropos({
+      el: ".my-third-atropos",
+    });
 
-  const myAtropos4 = Atropos({
-    el: ".my-fourth-atropos",
-  });
+    const myAtropos4 = Atropos({
+      el: ".my-fourth-atropos",
+    });
 
-  const myAtropos5 = Atropos({
-    el: ".my-fifth-atropos",
-  });
+    const myAtropos5 = Atropos({
+      el: ".my-fifth-atropos",
+    });
 
-  const myAtropos6 = Atropos({
-    el: ".my-sixth-atropos",
-  });
+    return () => {
+      myAtropos.destroy();
+      myAtropos2.destroy();
+      myAtropos3.destroy();
+      myAtropos4.destroy();
+      myAtropos5.destroy();
+    };
+  }, []);
 
   return (
     <>
@@ -163,7 +170,7 @@ function MySkills() {
             </div>
           </div>
           <div className="row tw mt-3">
-            <h2 className="mb-4">Certificados</h2>
+            <h2 className="mb-4">Certificates</h2>
 
             <div
               className="col-12 col-md-6 text-center certificate atropos my-first-atropos"
