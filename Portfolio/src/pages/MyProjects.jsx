@@ -113,7 +113,7 @@ function MyProjects() {
               <Link to={"https://front-twitter3.vercel.app/"} target="blank">
                 <img
                   className="w-100 mb-3 projectsPic"
-                  src={`${import.meta.env.VITE_IMG_URL}/signUp.png`}
+                  src={`${import.meta.env.VITE_IMG_URL}/HGhome.png`}
                   alt=""
                 />
               </Link>
@@ -145,7 +145,7 @@ function MyProjects() {
               <Link to={"https://front-twitter3.vercel.app/"} target="blank">
                 <img
                   className="w-100 projectsPic"
-                  src={`${import.meta.env.VITE_IMG_URL}/profile.png`}
+                  src={`${import.meta.env.VITE_IMG_URL}/HGcart.png`}
                   alt=""
                 />
               </Link>

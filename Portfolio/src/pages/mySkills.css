@@ -5,10 +5,29 @@
   padding-top: 2rem;
 }
 
-.certificate {
+/* .certificate {
   border: 1px solid white;
   border-radius: 10px;
   height: 200px;
   padding-top: 2rem;
   margin-bottom: 2rem;
+} */
+
+.certificate img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.certificate h5 {
+  position: relative;
+  bottom: 150px;
+  color: black;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.darkCertificate {
+  color: white !important;
 }

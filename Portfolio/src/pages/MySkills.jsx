@@ -124,22 +124,36 @@ function MySkills() {
           </div>
           <div className="row tw mt-3">
             <h2 className="mb-4">Certificados</h2>
-            <div className="col-12 col-md-6 text-center">
-              <h5 className="certificate">Coding Bootcamp de Hack Academy</h5>
-            </div>
-            <div className="col-12 col-md-6 text-center">
-              <h5 className="certificate">Jovenes a Programar (Ceibal)</h5>
-            </div>
-            <div className="col-12 col-md-6 text-center">
-              <h5 className="certificate">Ingles</h5>
-            </div>
-            <div className="col-12 col-md-6 text-center">
-              <h5 className="certificate">
-                Escolaridad Facultad de Psicologia
+            <div className="col-12 col-md-6 text-center certificate">
+              <img src={`${import.meta.env.VITE_IMG_URL}/bootPic.png`} alt="" />
+              <h5 className="darkCertificate">
+                Coding Bootcamp de Hack Academy
               </h5>
             </div>
-            <div className="col-12 col-md-6 text-center">
-              <h5 className="certificate">Escolaridad Facultad de Economia</h5>
+            <div className="col-12 col-md-6 text-center certificate">
+              <img src={`${import.meta.env.VITE_IMG_URL}/japPic.png`} alt="" />
+              <h5>Jovenes a Programar (Ceibal)</h5>
+            </div>
+            <div className="col-12 col-md-6 text-center certificate">
+              <img
+                src={`${import.meta.env.VITE_IMG_URL}/inglesPic.png`}
+                alt=""
+              />
+              <h5>Ingles</h5>
+            </div>
+            <div className="col-12 col-md-6 text-center certificate">
+              <img
+                src={`${import.meta.env.VITE_IMG_URL}/psicoPic.png`}
+                alt=""
+              />
+              <h5>Escolaridad Facultad de Psicologia</h5>
+            </div>
+            <div className="col-12 col-md-6 text-center certificate">
+              <img
+                src={`${import.meta.env.VITE_IMG_URL}/economiaPic.png`}
+                alt=""
+              />
+              <h5>Escolaridad Facultad de Economia</h5>
             </div>
           </div>
         </div>
