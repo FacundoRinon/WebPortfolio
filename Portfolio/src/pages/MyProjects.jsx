@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function MyProjects() {
   return (
     <>
-      <div className="myInfo">
+      <div className="myInfo pb-3">
         <div className="row fila">
           <Link to={"/"}>
             <i className="bi bi-arrow-left fs-1 ps-sm-5 fs-1 text-white"></i>
@@ -110,7 +110,7 @@ function MyProjects() {
           </div>
           <div className="row tw mt-3 mb-3">
             <div className="col-lg-7">
-              <Link to={"https://front-twitter3.vercel.app/"} target="blank">
+              <Link to={"https://hackgames.vercel.app/"} target="blank">
                 <img
                   className="w-100 mb-3 projectsPic"
                   src={`${import.meta.env.VITE_IMG_URL}/HGhome.png`}
@@ -142,7 +142,7 @@ function MyProjects() {
               </p>
             </div>
             <div className="col-lg-7 mb-3">
-              <Link to={"https://front-twitter3.vercel.app/"} target="blank">
+              <Link to={"https://hackgames.vercel.app/"} target="blank">
                 <img
                   className="w-100 projectsPic"
                   src={`${import.meta.env.VITE_IMG_URL}/HGcart.png`}

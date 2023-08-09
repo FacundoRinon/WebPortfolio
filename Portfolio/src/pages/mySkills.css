@@ -13,6 +13,10 @@
   margin-bottom: 2rem;
 } */
 
+.certificate:hover {
+  cursor: pointer;
+}
+
 .certificate img {
   width: 100%;
   object-fit: cover;
@@ -22,12 +26,45 @@
 
 .certificate h5 {
   position: relative;
-  bottom: 150px;
-  color: black;
-  font-size: 3rem;
+  bottom: 200px;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  width: 80%;
+  padding-left: 10%;
   font-weight: 800;
 }
 
 .darkCertificate {
-  color: white !important;
+  color: rgb(248, 101, 4) !important;
+}
+
+.my-first-atropos {
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.my-second-atropos {
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-third-atropos {
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-fourth-atropos {
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-fifth-atropos {
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

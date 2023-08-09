@@ -13,7 +13,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Navbar from "../components/Navbar";
 
 function Home() {
-  const pdfFileName = "FullStackDevCV.pdf"; // Cambia esto al nombre de tu archivo PDF
+  const pdfFileName = "FullStackDevCV.pdf";
   const pdfUrl = `${import.meta.env.VITE_IMG_URL}/${pdfFileName}`;
 
   const [show, setShow] = useState(false);
@@ -46,15 +46,10 @@ function Home() {
             <Navbar />
           </div>
           <div className="container">
-            <div className="row">
-              <h2 className="homeFont">Hi,</h2>
-            </div>
-            <div className="row">
-              <h2 className="homeFont">I'm Facundo,</h2>
-            </div>
-            <div className="row">
-              <h2 className="homeFont mb-5">Full Stack Developer</h2>
-            </div>
+            <h2 className="homeFont">Hi,</h2>
+            <h2 className="homeFont">I'm Facundo,</h2>
+            <h2 className="homeFont mb-5">Full Stack Developer</h2>
+
             <button className="contactMeBtn mt-5" onClick={handleShow}>
               Contact me!
             </button>

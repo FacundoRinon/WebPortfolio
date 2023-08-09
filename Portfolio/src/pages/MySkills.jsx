@@ -1,7 +1,48 @@
 import "./mySkills.css";
 import { Link } from "react-router-dom";
 
+import Atropos from "atropos";
+import "atropos/css";
+
 function MySkills() {
+  const bootcampCertificateUrl = `${
+    import.meta.env.VITE_IMG_URL
+  }/CodingBootcamp.pdf`;
+  const japCertificateUrl = `${import.meta.env.VITE_IMG_URL}/JAP.pdf`;
+  const inglesCertificateUrl = `${
+    import.meta.env.VITE_IMG_URL
+  }/CertificadoIngles.pdf`;
+  const psicoCertificateUrl = `${
+    import.meta.env.VITE_IMG_URL
+  }/EscolaridadPsicologia.pdf`;
+  const ecoCertificateUrl = `${
+    import.meta.env.VITE_IMG_URL
+  }/EscolaridadEconomia.pdf`;
+
+  const myAtropos = Atropos({
+    el: ".my-first-atropos",
+  });
+
+  const myAtropos2 = Atropos({
+    el: ".my-second-atropos",
+  });
+
+  const myAtropos3 = Atropos({
+    el: ".my-third-atropos",
+  });
+
+  const myAtropos4 = Atropos({
+    el: ".my-fourth-atropos",
+  });
+
+  const myAtropos5 = Atropos({
+    el: ".my-fifth-atropos",
+  });
+
+  const myAtropos6 = Atropos({
+    el: ".my-sixth-atropos",
+  });
+
   return (
     <>
       <div className="mySkills">
@@ -98,10 +139,9 @@ function MySkills() {
           <div className="row tw mt-3 mb-5">
             <h2>Soft-Skills</h2>
             <p>
-              A lo largo de todo mi trayecto educativo he tenido la oportunidad
-              de perfeccionar mis habilidades blandas logrando tener una buena
-              comunicación con el resto de los integrantes de los distintos
-              espacios formativos.
+              Throughout my educational journey, I have had the opportunity to
+              refine my soft skills, enabling effective communication with
+              fellow participants in various educational settings.
             </p>
             <div className="col-12 col-md-6 col-lg-4 text-center">
               <h4 className="softSkill">Teamwork Oriented</h4>
@@ -124,36 +164,102 @@ function MySkills() {
           </div>
           <div className="row tw mt-3">
             <h2 className="mb-4">Certificados</h2>
-            <div className="col-12 col-md-6 text-center certificate">
-              <img src={`${import.meta.env.VITE_IMG_URL}/bootPic.png`} alt="" />
-              <h5 className="darkCertificate">
-                Coding Bootcamp de Hack Academy
-              </h5>
+
+            <div
+              className="col-12 col-md-6 text-center certificate atropos my-first-atropos"
+              onClick={() => window.open(bootcampCertificateUrl, "_blank")}
+            >
+              <div class="atropos-scale">
+                <div class="atropos-rotate">
+                  <div class="atropos-inner">
+                    <img
+                      src={`${import.meta.env.VITE_IMG_URL}/bootPic.png`}
+                      alt=""
+                    />
+                    <h5 className="darkCertificate" data-atropos-offset="10">
+                      Hack Academy Bootcamp{" "}
+                      <i class="bi bi-arrow-down-circle"></i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="col-12 col-md-6 text-center certificate">
-              <img src={`${import.meta.env.VITE_IMG_URL}/japPic.png`} alt="" />
-              <h5>Jovenes a Programar (Ceibal)</h5>
+            <div
+              className="col-12 col-md-6 text-center certificate atropos my-second-atropos"
+              onClick={() => window.open(japCertificateUrl, "_blank")}
+            >
+              <div class="atropos-scale">
+                <div class="atropos-rotate">
+                  <div class="atropos-inner">
+                    <img
+                      src={`${import.meta.env.VITE_IMG_URL}/japPic.png`}
+                      alt=""
+                    />
+                    <h5 data-atropos-offset="10">
+                      Jovenes a Programar{" "}
+                      <i class="bi bi-arrow-down-circle"></i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="col-12 col-md-6 text-center certificate">
-              <img
-                src={`${import.meta.env.VITE_IMG_URL}/inglesPic.png`}
-                alt=""
-              />
-              <h5>Ingles</h5>
+            <div
+              className="col-12 col-md-6 text-center certificate atropos my-third-atropos"
+              onClick={() => window.open(inglesCertificateUrl, "_blank")}
+            >
+              <div class="atropos-scale">
+                <div class="atropos-rotate">
+                  <div class="atropos-inner">
+                    <img
+                      src={`${import.meta.env.VITE_IMG_URL}/inglesPic.png`}
+                      alt=""
+                    />
+                    <h5 data-atropos-offset="10">
+                      EF SET <i class="bi bi-arrow-down-circle"></i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="col-12 col-md-6 text-center certificate">
-              <img
-                src={`${import.meta.env.VITE_IMG_URL}/psicoPic.png`}
-                alt=""
-              />
-              <h5>Escolaridad Facultad de Psicologia</h5>
+
+            <div
+              className="col-12 col-md-6 text-center certificate atropos my-fourth-atropos"
+              onClick={() => window.open(psicoCertificateUrl, "_blank")}
+            >
+              <div class="atropos-scale">
+                <div class="atropos-rotate">
+                  <div class="atropos-inner">
+                    <img
+                      src={`${import.meta.env.VITE_IMG_URL}/psicoPic.png`}
+                      alt=""
+                    />
+                    <h5 data-atropos-offset="10">
+                      Faculty of Psychology Background{" "}
+                      <i class="bi bi-arrow-down-circle"></i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="col-12 col-md-6 text-center certificate">
-              <img
-                src={`${import.meta.env.VITE_IMG_URL}/economiaPic.png`}
-                alt=""
-              />
-              <h5>Escolaridad Facultad de Economia</h5>
+
+            <div
+              className="col-12 col-md-6 text-center certificate atropos my-fifth-atropos"
+              onClick={() => window.open(ecoCertificateUrl, "_blank")}
+            >
+              <div class="atropos-scale">
+                <div class="atropos-rotate">
+                  <div class="atropos-inner">
+                    <img
+                      src={`${import.meta.env.VITE_IMG_URL}/economiaPic.png`}
+                      alt=""
+                    />
+                    <h5 data-atropos-offset="10">
+                      Faculty of Economics Background{" "}
+                      <i class="bi bi-arrow-down-circle"></i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

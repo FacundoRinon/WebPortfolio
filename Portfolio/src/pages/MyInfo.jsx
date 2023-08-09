@@ -48,15 +48,30 @@ function MyInfo() {
           <div className="row aboutMe mt-5 tw">
             <h2 className="mb-3">More info</h2>
             <div className="col-6 fotoDeSitio mt-3 mb-5">
-              <img
-                className="webPic"
-                src={`${import.meta.env.VITE_IMG_URL}/linkedin.png`}
-                alt="linkedin"
-              />
+              <Link
+                to={
+                  "https://www.linkedin.com/in/facundo-ri%C3%B1%C3%B3n-93b730220/"
+                }
+                target="blank"
+              >
+                <img
+                  className="webPic"
+                  src={`${import.meta.env.VITE_IMG_URL}/linkedin.png`}
+                  alt="linkedin"
+                />
+              </Link>
             </div>
             <div className="col-12 col-lg-5 col-xl-6">
               <h3 className="pt-5">
-                Linkedin <i className="bi bi-linkedin lin"></i>
+                <Link
+                  to={
+                    "https://www.linkedin.com/in/facundo-ri%C3%B1%C3%B3n-93b730220/"
+                  }
+                  target="blank"
+                  className="no-underline tw"
+                >
+                  Linkedin <i className="bi bi-linkedin lin"></i>
+                </Link>
               </h3>
               <p>
                 Here you can find more information about me, as well as access
@@ -67,7 +82,13 @@ function MyInfo() {
             </div>
             <div className="col-12 col-lg-5 col-xl-6">
               <h3 className="mt-5">
-                <i className="bi bi-github git"></i> GitHub
+                <Link
+                  to={"https://github.com/FacundoRinon"}
+                  target="blank"
+                  className="no-underline tw"
+                >
+                  <i className="bi bi-github git"></i> GitHub
+                </Link>
               </h3>
               <p>
                 On my GitHub, you can discover repositories containing some of
@@ -77,11 +98,13 @@ function MyInfo() {
               </p>
             </div>
             <div className="col-6 fotoDeSitio mt-5 mb-5">
-              <img
-                className="webPic"
-                src={`${import.meta.env.VITE_IMG_URL}/github.png`}
-                alt=""
-              />
+              <Link to={"https://github.com/FacundoRinon"} target="blank">
+                <img
+                  className="webPic"
+                  src={`${import.meta.env.VITE_IMG_URL}/github.png`}
+                  alt=""
+                />
+              </Link>
             </div>
           </div>
         </div>

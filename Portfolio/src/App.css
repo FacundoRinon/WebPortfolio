@@ -199,6 +199,10 @@
   border-radius: 10px;
 }
 
+.fotoDeSitio:hover {
+  transform: scale(1.1);
+}
+
 /* @keyframes logo-spin {
   from {
     transform: rotate(0deg);
