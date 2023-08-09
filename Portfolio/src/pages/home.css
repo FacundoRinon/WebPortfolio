@@ -1,43 +1,97 @@
-.homeFont {
-  color: white;
-  font-size: 4rem;
-  font-weight: bold;
-  padding-left: 4rem;
+@media (max-width: 576px) {
+  .sidebar {
+    display: none;
+  }
+
+  .homeFont {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 2rem;
+  }
+
+  .homeBody {
+    background-color: rgb(22, 21, 21);
+    height: 100vh;
+  }
+
+  .contactMeBtn {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+  }
+
+  .cvBtn {
+    color: rgb(235, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border: 2px solid rgb(235, 6, 6);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+  }
+
+  .homeModal {
+    background-color: rgb(22, 21, 21);
+    color: white;
+    border: solid 1px white;
+  }
+
+  .copyBtn {
+    background-color: rgb(22, 21, 21);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: auto;
+  }
 }
 
-.homeBody {
-  background-color: rgb(22, 21, 21);
-}
+@media (min-width: 576px) {
+  .homeFont {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-left: 4rem;
+  }
 
-.contactMeBtn {
-  color: green;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  border: 2px solid green;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 3.5rem;
-}
+  .homeBody {
+    background-color: rgb(22, 21, 21);
+  }
 
-.cvBtn {
-  color: rgb(235, 6, 6);
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  border: 2px solid rgb(235, 6, 6);
-  border-radius: 5px;
-  padding: 10px;
-}
+  .contactMeBtn {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 3.5rem;
+  }
 
-.homeModal {
-  background-color: rgb(22, 21, 21);
-  color: white;
-  border: solid 1px white;
-}
+  .cvBtn {
+    color: rgb(235, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border: 2px solid rgb(235, 6, 6);
+    border-radius: 5px;
+    padding: 10px;
+  }
 
-.copyBtn {
-  background-color: rgb(22, 21, 21);
-  color: white;
-  border: 1px solid white;
-  border-radius: 5px;
-  margin-left: auto;
+  .homeModal {
+    background-color: rgb(22, 21, 21);
+    color: white;
+    border: solid 1px white;
+  }
+
+  .copyBtn {
+    background-color: rgb(22, 21, 21);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: auto;
+  }
 }

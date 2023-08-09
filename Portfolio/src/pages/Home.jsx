@@ -10,6 +10,7 @@ import Button from "react-bootstrap/Button";
 //Toast
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Navbar from "../components/Navbar";
 
 function Home() {
   const pdfFileName = "FullStackDevCV.pdf"; // Cambia esto al nombre de tu archivo PDF
@@ -41,6 +42,9 @@ function Home() {
           <Sidebar />
         </div>
         <div className="col-12 col-sm-10 homeBody">
+          <div className="d-block d-sm-none">
+            <Navbar />
+          </div>
           <div className="container">
             <div className="row">
               <h2 className="homeFont">Hi,</h2>

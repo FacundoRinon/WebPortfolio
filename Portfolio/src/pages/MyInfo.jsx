@@ -46,8 +46,8 @@ function MyInfo() {
             </p>
           </div>
           <div className="row aboutMe mt-5 tw">
-            <h2 className="mb-5">More info</h2>
-            <div className="col-6 fotoDeSitio mt-5 mb-5">
+            <h2 className="mb-3">More info</h2>
+            <div className="col-6 fotoDeSitio mt-3 mb-5">
               <img
                 className="webPic"
                 src={`${import.meta.env.VITE_IMG_URL}/linkedin.png`}
@@ -70,9 +70,10 @@ function MyInfo() {
                 <i className="bi bi-github git"></i> GitHub
               </h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod,
-                in? Quidem, magni suscipit repellendus aliquam dolore aperiam
-                quasi quas accusamus.
+                On my GitHub, you can discover repositories containing some of
+                the recent projects I have been diligently involved in.
+                Additionally, you are welcome to access the activity log I
+                diligently maintain within the platform.
               </p>
             </div>
             <div className="col-6 fotoDeSitio mt-5 mb-5">
