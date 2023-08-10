@@ -59,7 +59,7 @@ function MySkills() {
           </Link>
           <div className="col-3 fotito">
             <img
-              src="https://ahsafjxktrbibxigbksr.supabase.co/storage/v1/object/public/images/image_1688583607064.jpeg"
+              src={`${import.meta.env.VITE_IMG_URL}/programing.jpg`}
               alt="Foto"
             />
           </div>
