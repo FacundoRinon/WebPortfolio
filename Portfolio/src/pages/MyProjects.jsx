@@ -40,7 +40,7 @@ function MyProjects() {
                 className="no-underline"
               >
                 {" "}
-                <small className="projectButton">Visit project</small>
+                <small className="projectButton">Visit</small>
               </Link>
             </div>
             <p className="mt-5">
@@ -105,7 +105,7 @@ function MyProjects() {
                 className="no-underline"
               >
                 {" "}
-                <small className="projectButton">Visit project</small>
+                <small className="projectButton">Visit</small>
               </Link>
             </div>
             <p className="mt-5">
