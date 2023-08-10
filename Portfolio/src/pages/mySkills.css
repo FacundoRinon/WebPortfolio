@@ -1,8 +1,28 @@
-.softSkill {
-  border: 1px solid white;
-  border-radius: 5px;
-  height: 100px;
-  padding-top: 2rem;
+.softSkill p {
+  position: relative;
+  bottom: 50px;
+  left: 12%;
+  color: rgb(228, 228, 228) !important;
+  font-weight: 700;
+  background-color: black;
+  width: 75%;
+  border-radius: 15px;
+}
+
+.softSkill img {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.projectButton {
+  background-color: rgb(22, 21, 21);
+  border: 2px solid green;
+  color: green !important;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 /* .certificate {

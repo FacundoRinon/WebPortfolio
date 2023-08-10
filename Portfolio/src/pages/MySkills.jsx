@@ -150,23 +150,44 @@ function MySkills() {
               refine my soft skills, enabling effective communication with
               fellow participants in various educational settings.
             </p>
-            <div className="col-12 col-md-6 col-lg-4 text-center">
-              <h4 className="softSkill">Teamwork Oriented</h4>
+            <div className="col-12 col-md-6 col-lg-4 text-center softSkill">
+              <img
+                src={`${import.meta.env.VITE_IMG_URL}/teamwork.jpg`}
+                alt=""
+              />
+              <p>Teamwork Oriented</p>
             </div>
-            <div className="col-12 col-md-6 col-lg-4 text-center">
-              <h4 className="softSkill">Fast Learner</h4>
+            <div className="col-12 col-md-6 col-lg-4 text-center softSkill">
+              <img
+                src={`${import.meta.env.VITE_IMG_URL}/fastlearner.jpg`}
+                alt=""
+              />
+              <p>Fast Learner</p>
             </div>
-            <div className="col-12 col-md-6 col-lg-4 text-center">
-              <h4 className="softSkill">Assertive communication</h4>
+            <div className="col-12 col-md-6 col-lg-4 text-center softSkill">
+              <img
+                src={`${import.meta.env.VITE_IMG_URL}/comunication.jpg`}
+                alt=""
+              />
+              <p>Assertive communication</p>
             </div>
-            <div className="col-12 col-md-6 col-lg-4 text-center">
-              <h4 className="softSkill">Problem-solving skills</h4>
+            <div className="col-12 col-md-6 col-lg-4 text-center softSkill">
+              <img
+                src={`${import.meta.env.VITE_IMG_URL}/problemsolving.png`}
+                alt=""
+              />
+              <p>Problem-solving skills</p>
             </div>
-            <div className="col-12 col-md-6 col-lg-4 text-center">
-              <h4 className="softSkill">Desire to learn</h4>
+            <div className="col-12 col-md-6 col-lg-4 text-center softSkill">
+              <img src={`${import.meta.env.VITE_IMG_URL}/desire.jpeg`} alt="" />
+              <p>Desire to learn</p>
             </div>
-            <div className="col-12 col-md-6 col-lg-4 text-center">
-              <h4 className="softSkill">Adaptability</h4>
+            <div className="col-12 col-md-6 col-lg-4 text-center softSkill">
+              <img
+                src={`${import.meta.env.VITE_IMG_URL}/adaptability.jpg`}
+                alt=""
+              />
+              <p>Adaptability</p>
             </div>
           </div>
           <div className="row tw mt-3">
@@ -241,7 +262,7 @@ function MySkills() {
                       alt=""
                     />
                     <h5 data-atropos-offset="10">
-                      Faculty of Psychology Background{" "}
+                      Psychology Background{" "}
                       <i class="bi bi-arrow-down-circle"></i>
                     </h5>
                   </div>
@@ -261,7 +282,7 @@ function MySkills() {
                       alt=""
                     />
                     <h5 data-atropos-offset="10">
-                      Faculty of Economics Background{" "}
+                      Economics Background{" "}
                       <i class="bi bi-arrow-down-circle"></i>
                     </h5>
                   </div>

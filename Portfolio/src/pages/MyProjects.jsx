@@ -34,12 +34,16 @@ function MyProjects() {
               <h2 className="mb-3">Twitter Clone Project</h2>
             </div>
             <div className="col-3 col-sm-2">
-              <Link to={"https://front-twitter3.vercel.app/"} target="blank">
+              <Link
+                to={"https://front-twitter3.vercel.app/"}
+                target="blank"
+                className="no-underline"
+              >
                 {" "}
-                Visit project
+                <small className="projectButton">Visit project</small>
               </Link>
             </div>
-            <p>
+            <p className="mt-5">
               In this project, I collaborated with Ramiro Vidal, a fellow
               participant from Hack Academy's Coding Bootcamp, for a duration of
               two weeks. We held daily meetings spanning six hours each day. Our
@@ -58,7 +62,7 @@ function MyProjects() {
               </Link>
             </div>
             <div className="col-lg-5">
-              <p className="mt-3">
+              <p className="mt-5">
                 To achieve this objective, we engineered a robust Rest API to
                 efficiently store and manage user data, employing Node.js and
                 MongoDB. The application itself was meticulously crafted using a
@@ -70,7 +74,7 @@ function MyProjects() {
           <div className="row tw mt-5 mb-3">
             <div className="col-lg-5">
               <h4>Functions</h4>
-              <p>
+              <p className="mt-5">
                 Within this project, one has the capability to undertake a
                 multitude of actions. These include creating a user profile,
                 making posts, engaging in comments on posts, searching for
@@ -92,20 +96,24 @@ function MyProjects() {
           </div>
           <div className="row tw">
             <div className="col-10">
-              <h2 className="mb-3">Hack Games Project</h2>
+              <h2 className="mb-3 mt-5">Hack Games Project</h2>
             </div>
-            <div className="col-2">
-              <Link to={"https://hackgames.vercel.app/"} target="blank">
+            <div className="col-2 mt-5">
+              <Link
+                to={"https://hackgames.vercel.app/"}
+                target="blank"
+                className="no-underline"
+              >
                 {" "}
-                Visit project
+                <small className="projectButton">Visit project</small>
               </Link>
             </div>
-            <p>
-              In this project, I collaborated with Ramiro Vidal, a fellow
-              participant from Hack Academy's Coding Bootcamp, for a duration of
-              two weeks. We held daily meetings spanning six hours each day. Our
-              primary goal was to develop a streamlined version of a
-              Twitter-like application.
+            <p className="mt-5">
+              Hack Games is the culminating project of the Hack Academy Coding
+              Bootcamp. It is a fictional physical video game e-commerce
+              website. To create it, we collaborated with three fellow students:
+              Giovani Gonzales, Juan Chur, and Batman, over a period of three
+              weeks.
             </p>
           </div>
           <div className="row tw mt-3 mb-3">
@@ -119,26 +127,25 @@ function MyProjects() {
               </Link>
             </div>
             <div className="col-lg-5">
-              <p className="mt-3">
-                To achieve this objective, we engineered a robust Rest API to
-                efficiently store and manage user data, employing Node.js and
-                MongoDB. The application itself was meticulously crafted using a
-                skillful combination of React.js, Bootstrap, JavaScript, and
-                Redux.
+              <p className="mt-5">
+                Similar to the Twitter project, we had to create a Rest API
+                where we stored and retrieved information about the video game
+                catalog. The application was built using React.js and
+                JavaScript.
               </p>
             </div>
           </div>
           <div className="row tw mt-5 mb-3">
             <div className="col-lg-5">
               <h4>Functions</h4>
-              <p>
-                Within this project, one has the capability to undertake a
-                multitude of actions. These include creating a user profile,
-                making posts, engaging in comments on posts, searching for
-                fellow users, establishing connections by following others,
-                expressing approval through likes on both posts and comments,
-                and even managing the removal of posts, among various other
-                functionalities.
+              <p className="mt-5">
+                In this project, we have three ways to navigate. One of these
+                ways is as a guest, allowing you to view available games without
+                creating a user or logging in. We can also log in as a buyer
+                once our user is created, allowing us to add products to our
+                cart and complete a fictitious purchase. Lastly, it is possible
+                to log in as an administrator, with access to various
+                dashboards.
               </p>
             </div>
             <div className="col-lg-7 mb-3">
