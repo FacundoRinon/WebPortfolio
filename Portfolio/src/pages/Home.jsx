@@ -13,7 +13,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Navbar from "../components/Navbar";
 
 function Home() {
-  const pdfFileName = "FullStackDevCV.pdf";
+  const pdfFileName = "NewEnglishCVFullStack.pdf";
   const pdfUrl = `${import.meta.env.VITE_IMG_URL}/${pdfFileName}`;
 
   const [show, setShow] = useState(false);
@@ -69,12 +69,12 @@ function Home() {
             <h5>Email:</h5>
             <div className="row">
               <div className="col-9">
-                <p>facuzionff@gmail.com </p>
+                <p>facundo.rinon27@gmail.com</p>
               </div>
               <div className="col-3">
                 <button
                   className="copyBtn"
-                  onClick={() => copyText("facuzionff@gmail.com")}
+                  onClick={() => copyText("facundo.rinon27@gmail.com")}
                 >
                   Copy <i class="bi bi-clipboard-check"></i>
                 </button>
@@ -84,12 +84,12 @@ function Home() {
             <h5>Phone Number:</h5>
             <div className="row">
               <div className="col-9">
-                <p>(+598)98232825</p>
+                <p>(+598) 098232825</p>
               </div>
               <div className="col-3">
                 <button
                   className="copyBtn"
-                  onClick={() => copyText("(+598)98232825")}
+                  onClick={() => copyText("(+598) 098232825")}
                 >
                   Copy <i class="bi bi-clipboard-check"></i>
                 </button>

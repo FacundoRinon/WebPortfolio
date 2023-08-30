@@ -9,13 +9,17 @@ function MySkills() {
   const bootcampCertificateUrl = `${
     import.meta.env.VITE_IMG_URL
   }/CodingBootcamp.pdf`;
+
   const japCertificateUrl = `${import.meta.env.VITE_IMG_URL}/JAP.pdf`;
+
   const inglesCertificateUrl = `${
     import.meta.env.VITE_IMG_URL
   }/CertificadoIngles.pdf`;
+
   const psicoCertificateUrl = `${
     import.meta.env.VITE_IMG_URL
   }/EscolaridadPsicologia.pdf`;
+
   const ecoCertificateUrl = `${
     import.meta.env.VITE_IMG_URL
   }/EscolaridadEconomia.pdf`;
