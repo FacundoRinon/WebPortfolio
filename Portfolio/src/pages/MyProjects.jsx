@@ -22,11 +22,76 @@ function MyProjects() {
           <div className="row tw mb-5">
             <div className="col-12 col-sm-9">
               <h2>Introduction</h2>
-              <p>
+              <p style={{ textAlign: "justify" }}>
                 In this section, you will have direct access to various projects
                 I have been actively involved in recently, both individually and
                 collaboratively with different teams.
               </p>
+            </div>
+          </div>
+          <div className="row tw">
+            <div className="col-10">
+              <h2 className="mb-3 mt-5">Jujutsu cards</h2>
+            </div>
+            <div className="col-2 mt-5">
+              <Link
+                to={"https://jujutsu-cards.vercel.app/"}
+                target="blank"
+                className="no-underline"
+              >
+                {" "}
+                <small className="projectButton">Visit</small>
+              </Link>
+            </div>
+            <p style={{ textAlign: "justify" }} className="mt-5">
+              "Jujutsu Cards" is my debut full-stack project, where I worked
+              entirely independently over a span of two weeks. It is a
+              collectible card platform inspired by the popular anime "Jujutsu
+              Kaisen."
+            </p>
+          </div>
+          <div className="row tw mt-3 mb-3">
+            <div className="col-lg-7">
+              <Link to={"https://hackgames.vercel.app/"} target="blank">
+                <img
+                  className="w-100 mb-3 projectsPic"
+                  src={`${import.meta.env.VITE_IMG_URL}/ruleModalPage4.png`}
+                  alt=""
+                />
+              </Link>
+            </div>
+            <div className="col-lg-5">
+              <p style={{ textAlign: "justify" }} className="mt-5">
+                I had to use Node.js and MongoDB to create a Rest API where i
+                stored and retrieved information about the cards and users. The
+                application was built using React.js and JavaScript.
+              </p>
+            </div>
+          </div>
+          <div className="row tw mt-5 mb-3">
+            <div className="col-lg-5">
+              <h4>Functions</h4>
+              <p style={{ textAlign: "justify" }} className="mt-5">
+                In this project, users have the ability to create their own
+                accounts, as well as utilize a pre-existing account for
+                simplified access, particularly for those with limited time to
+                spare. A tutorial modal serves as a guiding feature. <br /> The
+                most significant aspect of the application revolves around the
+                collectible cards, each featuring an engaging 3D effect crafted
+                using the Atropos library. Users can unlock cards using points
+                and subsequently incorporate them into their teams to earn
+                additional points. These cards, once part of our team, generate
+                points over specified intervals of time.
+              </p>
+            </div>
+            <div className="col-lg-7 mb-3">
+              <Link to={"https://hackgames.vercel.app/"} target="blank">
+                <img
+                  className="w-100 projectsPic"
+                  src={`${import.meta.env.VITE_IMG_URL}/ruleModalPage3.png`}
+                  alt=""
+                />
+              </Link>
             </div>
           </div>
           <div className="row tw">
@@ -43,7 +108,7 @@ function MyProjects() {
                 <small className="projectButton">Visit</small>
               </Link>
             </div>
-            <p className="mt-5">
+            <p style={{ textAlign: "justify" }} className="mt-5">
               In this project, I collaborated with Ramiro Vidal, a fellow
               participant from Hack Academy's Coding Bootcamp, for a duration of
               two weeks. We held daily meetings spanning six hours each day. Our
@@ -62,7 +127,7 @@ function MyProjects() {
               </Link>
             </div>
             <div className="col-lg-5">
-              <p className="mt-5">
+              <p style={{ textAlign: "justify" }} className="mt-5">
                 To achieve this objective, we engineered a robust Rest API to
                 efficiently store and manage user data, employing Node.js and
                 MongoDB. The application itself was meticulously crafted using a
@@ -74,7 +139,7 @@ function MyProjects() {
           <div className="row tw mt-5 mb-3">
             <div className="col-lg-5">
               <h4>Functions</h4>
-              <p className="mt-5">
+              <p style={{ textAlign: "justify" }} className="mt-5">
                 Within this project, one has the capability to undertake a
                 multitude of actions. These include creating a user profile,
                 making posts, engaging in comments on posts, searching for
@@ -108,7 +173,7 @@ function MyProjects() {
                 <small className="projectButton">Visit</small>
               </Link>
             </div>
-            <p className="mt-5">
+            <p style={{ textAlign: "justify" }} className="mt-5">
               Hack Games is the culminating project of the Hack Academy Coding
               Bootcamp. It is a fictional physical video game e-commerce
               website. To create it, we collaborated with three fellow students:
@@ -127,7 +192,7 @@ function MyProjects() {
               </Link>
             </div>
             <div className="col-lg-5">
-              <p className="mt-5">
+              <p style={{ textAlign: "justify" }} className="mt-5">
                 Similar to the Twitter project, we had to create a Rest API
                 where we stored and retrieved information about the video game
                 catalog. The application was built using React.js and
@@ -138,7 +203,7 @@ function MyProjects() {
           <div className="row tw mt-5 mb-3">
             <div className="col-lg-5">
               <h4>Functions</h4>
-              <p className="mt-5">
+              <p style={{ textAlign: "justify" }} className="mt-5">
                 In this project, we have three ways to navigate. One of these
                 ways is as a guest, allowing you to view available games without
                 creating a user or logging in. We can also log in as a buyer
