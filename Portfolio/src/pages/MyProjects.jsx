@@ -96,13 +96,13 @@ function MyProjects() {
           </div>
           <div className="row tw">
             <div className="col-9 col-sm-10">
-              <h2 className="mb-3">Twitter Clone Project</h2>
+              <h2 className="mb-3 mt-5">Twitter Clone Project</h2>
             </div>
-            <div className="col-3 col-sm-2">
+            <div className="col-3 col-sm-2 mb-3 mt-5">
               <Link
                 to={"https://front-twitter3.vercel.app/"}
                 target="blank"
-                className="no-underline"
+                className="no-underline "
               >
                 {" "}
                 <small className="projectButton">Visit</small>
