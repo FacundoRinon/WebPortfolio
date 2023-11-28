@@ -196,7 +196,15 @@ function MySkills() {
           </div>
           <div className="row tw mt-3">
             <h2 className="mb-4">Certificates</h2>
-
+            <div className="certificateDesc col-12 col-md-6">
+              <h4 className="text-center">Hack Academy Bootcamp</h4>
+              <p>
+                The coding bootcamp at Hack Academy is an intensive 3-month
+                course that is highly practical, with a daily schedule of 9
+                hours per day. Participants dedicate over 600 hours to learning
+                the necessary technologies to become a Full Stack Developer.
+              </p>
+            </div>
             <div
               className="col-12 col-md-6 text-center certificate atropos my-first-atropos"
               onClick={() => window.open(bootcampCertificateUrl, "_blank")}
@@ -215,6 +223,17 @@ function MySkills() {
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div className="certificateDesc col-12 col-md-6">
+              <h4 className="text-center">Jovenes a Programar</h4>
+              <p>
+                Jovenes a Programar is an introductory course to the world of
+                technologies. It has a duration of one year, with the first
+                semester dedicated to learning JavaScript, CSS, HTML, and Ruby.
+                In the second half of the year, I was assigned to the Testing
+                orientation.
+              </p>
             </div>
             <div
               className="col-12 col-md-6 text-center certificate atropos my-second-atropos"
@@ -235,6 +254,13 @@ function MySkills() {
                 </div>
               </div>
             </div>
+            <div className="certificateDesc col-12 col-md-6">
+              <h4 className="text-center">EF SET Certificate</h4>
+              <p>
+                English Language Proficiency Certificate. Achieved a C2 level
+                within the parameters of the institution.
+              </p>
+            </div>
             <div
               className="col-12 col-md-6 text-center certificate atropos my-third-atropos"
               onClick={() => window.open(inglesCertificateUrl, "_blank")}
@@ -254,6 +280,14 @@ function MySkills() {
               </div>
             </div>
 
+            <div className="certificateDesc col-12 col-md-6">
+              <h4 className="text-center">Psychology Studies</h4>
+              <p>
+                Education at the Faculty of Psychology (UDELAR). As of today, I
+                only need to complete the final degree project (TFG) to receive
+                the university degree.
+              </p>
+            </div>
             <div
               className="col-12 col-md-6 text-center certificate atropos my-fourth-atropos"
               onClick={() => window.open(psicoCertificateUrl, "_blank")}
@@ -274,6 +308,13 @@ function MySkills() {
               </div>
             </div>
 
+            <div className="certificateDesc col-12 col-md-6">
+              <h4 className="text-center">Economics Studies</h4>
+              <p>
+                Education at the Faculty of Economics (UDELAR). Completed two
+                full years.
+              </p>
+            </div>
             <div
               className="col-12 col-md-6 text-center certificate atropos my-fifth-atropos"
               onClick={() => window.open(ecoCertificateUrl, "_blank")}

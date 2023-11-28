@@ -29,6 +29,69 @@ function MyProjects() {
               </p>
             </div>
           </div>
+
+          <div className="row tw">
+            <div className="col-10">
+              <h2 className="mb-3 mt-5">The RecipeBook</h2>
+            </div>
+            <div className="col-2 mt-5">
+              <Link
+                to={"https://recipebookproject.vercel.app/"}
+                target="blank"
+                className="no-underline"
+              >
+                {" "}
+                <small className="projectButton">Visit</small>
+              </Link>
+            </div>
+            <p style={{ textAlign: "justify" }} className="mt-5">
+              The recipe book is a project focused on creating recipes to share
+              with others. I worked on this project independently over a period
+              of one month.
+            </p>
+          </div>
+          <div className="row tw mt-3 mb-3">
+            <div className="col-lg-7">
+              <Link to={"https://recipebookproject.vercel.app/"} target="blank">
+                <img
+                  className="w-100 mb-3 projectsPic"
+                  src={`${import.meta.env.VITE_IMG_URL}/RecipeBook1.png`}
+                  alt=""
+                />
+              </Link>
+            </div>
+            <div className="col-lg-5">
+              <p style={{ textAlign: "justify" }} className="mt-5">
+                I had to use Node.js and MongoDB to create a Rest API where I
+                stored and retrieved information about the recipes and users.
+                The application was built using React.js and JavaScript.
+              </p>
+            </div>
+          </div>
+          <div className="row tw mt-5 mb-3">
+            <div className="col-lg-5">
+              <h4>Functions</h4>
+              <p style={{ textAlign: "justify" }} className="mt-5">
+                In the application, we have the opportunity to create and edit
+                our own recipes. We can then add posts from others that interest
+                us to our recipe book for later cooking. Additionally, we can
+                rate recipes. It's important to start following other users so
+                we can see the recipes they are sharing. However, if we choose
+                not to follow others, we can also search for recipes based on
+                their category, rating, and number of votes
+              </p>
+            </div>
+            <div className="col-lg-7 mb-3">
+              <Link to={"https://recipebookproject.vercel.app/"} target="blank">
+                <img
+                  className="w-100 projectsPic"
+                  src={`${import.meta.env.VITE_IMG_URL}/RecipeBook2.png`}
+                  alt=""
+                />
+              </Link>
+            </div>
+          </div>
+
           <div className="row tw">
             <div className="col-10">
               <h2 className="mb-3 mt-5">Jujutsu cards</h2>
@@ -85,7 +148,7 @@ function MyProjects() {
               </p>
             </div>
             <div className="col-lg-7 mb-3">
-              <Link to={"https://hackgames.vercel.app/"} target="blank">
+              <Link to={"https://jujutsu-cards.vercel.app/"} target="blank">
                 <img
                   className="w-100 projectsPic"
                   src={`${import.meta.env.VITE_IMG_URL}/ruleModalPage3.png`}

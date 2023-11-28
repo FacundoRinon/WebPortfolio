@@ -1,16 +1,14 @@
-import "./home.css";
-
 import { useState } from "react";
-import Sidebar from "../components/Sidebar";
-
-// Modal
-import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
-
-//Toast
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+
+import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
+
+import "./home.css";
 
 function Home() {
   const pdfFileName = "NewEnglishCVFullStack.pdf";
@@ -19,7 +17,7 @@ function Home() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true); // Viene del modal
+  const handleShow = () => setShow(true);
 
   const copyText = (text) => {
     navigator.clipboard.writeText(text);
