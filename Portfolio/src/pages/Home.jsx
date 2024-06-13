@@ -74,7 +74,7 @@ function Home() {
                   className="copyBtn"
                   onClick={() => copyText("facundo.rinon27@gmail.com")}
                 >
-                  Copy <i class="bi bi-clipboard-check"></i>
+                  Copy <i className="bi bi-clipboard-check"></i>
                 </button>
               </div>
             </div>
@@ -89,7 +89,7 @@ function Home() {
                   className="copyBtn"
                   onClick={() => copyText("(+598) 098232825")}
                 >
-                  Copy <i class="bi bi-clipboard-check"></i>
+                  Copy <i className="bi bi-clipboard-check"></i>
                 </button>
               </div>
             </div>

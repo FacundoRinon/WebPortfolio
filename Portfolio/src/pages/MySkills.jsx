@@ -24,6 +24,8 @@ function MySkills() {
     import.meta.env.VITE_IMG_URL
   }/EscolaridadEconomia.pdf`;
 
+  const neoCoastCertificateUrl = `${import.meta.env.VITE_IMG_URL}/NeoCoast.pdf`;
+
   useEffect(() => {
     const myAtropos = Atropos({
       el: ".my-first-atropos",
@@ -45,12 +47,17 @@ function MySkills() {
       el: ".my-fifth-atropos",
     });
 
+    const myAtropos6 = Atropos({
+      el: ".my-sixth-atropos",
+    });
+
     return () => {
       myAtropos.destroy();
       myAtropos2.destroy();
       myAtropos3.destroy();
       myAtropos4.destroy();
       myAtropos5.destroy();
+      myAtropos6.destroy();
     };
   }, []);
 
@@ -197,6 +204,33 @@ function MySkills() {
           <div className="row tw mt-3">
             <h2 className="mb-4">Certificates</h2>
             <div className="certificateDesc col-12 col-md-6">
+              <h4 className="text-center">NeoCoast React Bootcamp</h4>
+              <p>
+                The react bootcamp at NeoCoast is a two months course that is
+                highly practical. At the end of the course participants develop
+                a front-end aplication using an external API.
+              </p>
+            </div>
+            <div
+              className="col-12 col-md-6 text-center certificate atropos my-sixth-atropos"
+              onClick={() => window.open(neoCoastCertificateUrl, "_blank")}
+            >
+              <div className="atropos-scale">
+                <div className="atropos-rotate">
+                  <div className="atropos-inner">
+                    <img
+                      src={`${import.meta.env.VITE_IMG_URL}/NeoPic.png`}
+                      alt=""
+                    />
+                    <h5 data-atropos-offset="10">
+                      NeoCoast React Bootcamp{" "}
+                      <i className="bi bi-arrow-down-circle"></i>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="certificateDesc col-12 col-md-6">
               <h4 className="text-center">Hack Academy Bootcamp</h4>
               <p>
                 The coding bootcamp at Hack Academy is an intensive 3-month
@@ -209,16 +243,16 @@ function MySkills() {
               className="col-12 col-md-6 text-center certificate atropos my-first-atropos"
               onClick={() => window.open(bootcampCertificateUrl, "_blank")}
             >
-              <div class="atropos-scale">
-                <div class="atropos-rotate">
-                  <div class="atropos-inner">
+              <div className="atropos-scale">
+                <div className="atropos-rotate">
+                  <div className="atropos-inner">
                     <img
                       src={`${import.meta.env.VITE_IMG_URL}/bootPic.png`}
                       alt=""
                     />
                     <h5 className="darkCertificate" data-atropos-offset="10">
                       Hack Academy Bootcamp{" "}
-                      <i class="bi bi-arrow-down-circle"></i>
+                      <i className="bi bi-arrow-down-circle"></i>
                     </h5>
                   </div>
                 </div>
@@ -239,16 +273,16 @@ function MySkills() {
               className="col-12 col-md-6 text-center certificate atropos my-second-atropos"
               onClick={() => window.open(japCertificateUrl, "_blank")}
             >
-              <div class="atropos-scale">
-                <div class="atropos-rotate">
-                  <div class="atropos-inner">
+              <div className="atropos-scale">
+                <div className="atropos-rotate">
+                  <div className="atropos-inner">
                     <img
                       src={`${import.meta.env.VITE_IMG_URL}/japPic.png`}
                       alt=""
                     />
                     <h5 data-atropos-offset="10">
                       Jovenes a Programar{" "}
-                      <i class="bi bi-arrow-down-circle"></i>
+                      <i className="bi bi-arrow-down-circle"></i>
                     </h5>
                   </div>
                 </div>
@@ -265,15 +299,15 @@ function MySkills() {
               className="col-12 col-md-6 text-center certificate atropos my-third-atropos"
               onClick={() => window.open(inglesCertificateUrl, "_blank")}
             >
-              <div class="atropos-scale">
-                <div class="atropos-rotate">
-                  <div class="atropos-inner">
+              <div className="atropos-scale">
+                <div className="atropos-rotate">
+                  <div className="atropos-inner">
                     <img
                       src={`${import.meta.env.VITE_IMG_URL}/inglesPic.png`}
                       alt=""
                     />
                     <h5 data-atropos-offset="10">
-                      EF SET <i class="bi bi-arrow-down-circle"></i>
+                      EF SET <i className="bi bi-arrow-down-circle"></i>
                     </h5>
                   </div>
                 </div>
@@ -292,16 +326,16 @@ function MySkills() {
               className="col-12 col-md-6 text-center certificate atropos my-fourth-atropos"
               onClick={() => window.open(psicoCertificateUrl, "_blank")}
             >
-              <div class="atropos-scale">
-                <div class="atropos-rotate">
-                  <div class="atropos-inner">
+              <div className="atropos-scale">
+                <div className="atropos-rotate">
+                  <div className="atropos-inner">
                     <img
                       src={`${import.meta.env.VITE_IMG_URL}/psicoPic.png`}
                       alt=""
                     />
                     <h5 data-atropos-offset="10">
                       Psychology Background{" "}
-                      <i class="bi bi-arrow-down-circle"></i>
+                      <i className="bi bi-arrow-down-circle"></i>
                     </h5>
                   </div>
                 </div>
@@ -319,16 +353,16 @@ function MySkills() {
               className="col-12 col-md-6 text-center certificate atropos my-fifth-atropos"
               onClick={() => window.open(ecoCertificateUrl, "_blank")}
             >
-              <div class="atropos-scale">
-                <div class="atropos-rotate">
-                  <div class="atropos-inner">
+              <div className="atropos-scale">
+                <div className="atropos-rotate">
+                  <div className="atropos-inner">
                     <img
                       src={`${import.meta.env.VITE_IMG_URL}/economiaPic.png`}
                       alt=""
                     />
                     <h5 data-atropos-offset="10">
                       Economics Background{" "}
-                      <i class="bi bi-arrow-down-circle"></i>
+                      <i className="bi bi-arrow-down-circle"></i>
                     </h5>
                   </div>
                 </div>
