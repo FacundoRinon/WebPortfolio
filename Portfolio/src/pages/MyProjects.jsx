@@ -32,6 +32,133 @@ function MyProjects() {
 
           <div className="row tw">
             <div className="col-10">
+              <h2 className="mb-3 mt-5">IMDb Clone Proyect</h2>
+            </div>
+            <div className="col-2 mt-5">
+              <Link
+                to={"https://moviesimdb-front.vercel.app/"}
+                target="blank"
+                className="no-underline"
+              >
+                {" "}
+                <small className="projectButton">Visit</small>
+              </Link>
+            </div>
+            <p style={{ textAlign: "justify" }} className="mt-5">
+              IMDb Clone is a project aimed at recreating, within the available
+              tools, the popular site "IMDb". The idea is to provide information
+              on a wide variety of audiovisual content, as well as allowing
+              users to add items to a watchlist and rate movies or series.
+            </p>
+          </div>
+          <div className="row tw mt-3 mb-3">
+            <div className="col-lg-7">
+              <Link to={"https://moviesimdb-front.vercel.app/"} target="blank">
+                <img
+                  className="w-100 mb-3 projectsPic"
+                  src={`${import.meta.env.VITE_IMG_URL}/IMDbHome.png`}
+                  alt=""
+                />
+              </Link>
+            </div>
+            <div className="col-lg-5">
+              <p style={{ textAlign: "justify" }} className="mt-5">
+                To carry out the project, I created my own API application to
+                store and request information from registered users using
+                Node.js. This information was stored in a relational database in
+                MySQL. To obtain information about movies and series, an
+                external API called "The Movie Database" was used. The frontend
+                application was created using React.js with JavaScript, and the
+                styles were implemented using SCSS.
+              </p>
+            </div>
+          </div>
+          <div className="row tw mt-5 mb-3">
+            <div className="col-lg-5">
+              <h4>Functions</h4>
+              <p style={{ textAlign: "justify" }} className="mt-5">
+                ChatGPT In the application, we have access to a large catalog of
+                movies and series, from which we can access trailers and photos.
+                Additionally, we can view information about the cast, directors,
+                and writers, as well as episodes and average ratings. Users can
+                rate these items and add them to a watchlist. The application is
+                fully responsive, adapting seamlessly to various devices.
+              </p>
+            </div>
+            <div className="col-lg-7 mb-3">
+              <Link to={"https://moviesimdb-front.vercel.app/"} target="blank">
+                <img
+                  className="w-100 projectsPic"
+                  src={`${import.meta.env.VITE_IMG_URL}/IMDbElement.png`}
+                  alt=""
+                />
+              </Link>
+            </div>
+          </div>
+
+          <div className="row tw">
+            <div className="col-10">
+              <h2 className="mb-3 mt-5">NewShop - NeoCoast Bootcamp Proyect</h2>
+            </div>
+            <div className="col-2 mt-5">
+              <Link
+                to={"https://newshop-one.vercel.app/"}
+                target="blank"
+                className="no-underline"
+              >
+                {" "}
+                <small className="projectButton">Visit</small>
+              </Link>
+            </div>
+            <p style={{ textAlign: "justify" }} className="mt-5">
+              "NewShop" represents the culmination of my efforts during the
+              React Bootcamp hosted by NeoCoast. This project embodies an
+              e-commerce platform specializing in everyday consumer goods.
+            </p>
+          </div>
+          <div className="row tw mt-3 mb-3">
+            <div className="col-lg-7">
+              <Link to={"https://newshop-one.vercel.app/"} target="blank">
+                <img
+                  className="w-100 mb-3 projectsPic"
+                  src={`${import.meta.env.VITE_IMG_URL}/newShop1.png`}
+                  alt=""
+                />
+              </Link>
+            </div>
+            <div className="col-lg-5">
+              <p style={{ textAlign: "justify" }} className="mt-5">
+                The project involved developing a frontend application using
+                React.js technology, which communicates with an external API
+                providing comprehensive product information. Various styles were
+                implemented using SCSS templates.
+              </p>
+            </div>
+          </div>
+          <div className="row tw mt-5 mb-3">
+            <div className="col-lg-5">
+              <h4>Functions</h4>
+              <p style={{ textAlign: "justify" }} className="mt-5">
+                Within the project's functionalities, users have the capability
+                to view detailed information about various products. They can
+                also add products to a shopping cart, create multiple carts
+                containing different products, and gift the contents of a cart
+                to another user.
+              </p>
+            </div>
+            <div className="col-lg-7 mb-3">
+              <Link to={"https://newshop-one.vercel.app/"} target="blank">
+                <img
+                  className="w-100 projectsPic"
+                  src={`${import.meta.env.VITE_IMG_URL}/newShop2.png`}
+                  alt=""
+                />
+              </Link>
+            </div>
+          </div>
+
+          <div className="row tw">
+            <div className="col-10">
               <h2 className="mb-3 mt-5">The RecipeBook</h2>
             </div>
             <div className="col-2 mt-5">

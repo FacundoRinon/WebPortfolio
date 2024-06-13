@@ -11,7 +11,7 @@ import Navbar from "../components/Navbar";
 import "./home.css";
 
 function Home() {
-  const pdfFileName = "NewEnglishCVFullStack.pdf";
+  const pdfFileName = "Full_stack___Supp_-_CV_2024.pdf";
   const pdfUrl = `${import.meta.env.VITE_IMG_URL}/${pdfFileName}`;
 
   const [show, setShow] = useState(false);
