@@ -9,6 +9,11 @@
   border-radius: 15px;
 }
 
+.skillTecIcon {
+  max-height: 5rem;
+  object-fit: cover;
+}
+
 .softSkill img {
   width: 100%;
   object-fit: cover;
