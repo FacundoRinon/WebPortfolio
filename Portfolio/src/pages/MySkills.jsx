@@ -226,7 +226,7 @@ function MySkills() {
             </div>
             <div className="col-12 col-md-6 col-lg-4 text-center softSkill">
               <img
-                src={`${import.meta.env.VITE_IMG_URL}/comunication.jpg`}
+                src={`${import.meta.env.VITE_IMG_URL}/comunication.jpeg`}
                 alt=""
               />
               <p>Assertive communication</p>
@@ -244,7 +244,7 @@ function MySkills() {
             </div>
             <div className="col-12 col-md-6 col-lg-4 text-center softSkill">
               <img
-                src={`${import.meta.env.VITE_IMG_URL}/adaptability.jpg`}
+                src={`${import.meta.env.VITE_IMG_URL}/adaptability.png`}
                 alt=""
               />
               <p>Adaptability</p>
