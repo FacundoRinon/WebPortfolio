@@ -148,6 +148,14 @@ function MySkills() {
             <div className="col-6 col-sm-3 text-center">
               <img
                 className="skillTecIcon"
+                src={`${import.meta.env.VITE_IMG_URL}/Git.png`}
+                alt=""
+              />
+              <h4 className="mt-3 mb-5">Github</h4>
+            </div>
+            <div className="col-6 col-sm-3 text-center">
+              <img
+                className="skillTecIcon"
                 src={`${import.meta.env.VITE_IMG_URL}/react.png`}
                 alt=""
               />
@@ -161,14 +169,7 @@ function MySkills() {
               />
               <h4 className="mt-3 mb-5">Redux</h4>
             </div>
-            <div className="col-6 col-sm-3 text-center">
-              <img
-                className="skillTecIcon"
-                src={`${import.meta.env.VITE_IMG_URL}/Git.png`}
-                alt=""
-              />
-              <h4 className="mt-3 mb-5">Github</h4>
-            </div>
+
             <div className="col-6 col-sm-3 text-center">
               <img
                 className="skillTecIcon"
@@ -180,10 +181,26 @@ function MySkills() {
             <div className="col-6 col-sm-3 text-center">
               <img
                 className="skillTecIcon"
+                src={`${import.meta.env.VITE_IMG_URL}/tailwind.png`}
+                alt=""
+              />
+              <h4 className="mt-3 mb-5">Tailwind</h4>
+            </div>
+            <div className="col-6 col-sm-3 text-center">
+              <img
+                className="skillTecIcon"
                 src={`${import.meta.env.VITE_IMG_URL}/mongoDB.png`}
                 alt=""
               />
               <h4 className="mt-3 mb-5">MongoDB</h4>
+            </div>
+            <div className="col-6 col-sm-3 text-center">
+              <img
+                className="skillTecIcon"
+                src={`${import.meta.env.VITE_IMG_URL}/mongoDB.png`}
+                alt=""
+              />
+              <h4 className="mt-3 mb-5">MySQL</h4>
             </div>
           </div>
           <div className="row tw mt-3 mb-5">
