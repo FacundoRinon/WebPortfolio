@@ -10,8 +10,8 @@
 }
 
 .skillTecIcon {
-  max-height: 5rem;
-  object-fit: cover;
+  max-height: 8rem;
+  object-fit: contain;
 }
 
 .softSkill img {
