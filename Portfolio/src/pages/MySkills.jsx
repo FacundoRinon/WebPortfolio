@@ -181,7 +181,7 @@ function MySkills() {
             <div className="col-6 col-sm-3 text-center">
               <img
                 className="skillTecIcon"
-                src={`${import.meta.env.VITE_IMG_URL}/tailwind.png`}
+                src={`${import.meta.env.VITE_IMG_URL}/tailwind.avif`}
                 alt=""
               />
               <h4 className="mt-3 mb-5">Tailwind</h4>
@@ -197,7 +197,7 @@ function MySkills() {
             <div className="col-6 col-sm-3 text-center">
               <img
                 className="skillTecIcon"
-                src={`${import.meta.env.VITE_IMG_URL}/mongoDB.png`}
+                src={`${import.meta.env.VITE_IMG_URL}/mysql.png`}
                 alt=""
               />
               <h4 className="mt-3 mb-5">MySQL</h4>
