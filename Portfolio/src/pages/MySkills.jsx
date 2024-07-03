@@ -100,7 +100,7 @@ function MySkills() {
             <div className="col-6 col-sm-3 text-center">
               <img
                 className="skillTecIcon"
-                src={`${import.meta.env.VITE_IMG_URL}/JS.png`}
+                src={`${import.meta.env.VITE_IMG_URL}/TS.png`}
                 alt=""
               />
               <h4 className="mt-3 mb-5">TypeScript</h4>
@@ -116,10 +116,34 @@ function MySkills() {
             <div className="col-6 col-sm-3 text-center">
               <img
                 className="skillTecIcon"
+                src={`${import.meta.env.VITE_IMG_URL}/scss.png`}
+                alt=""
+              />
+              <h4 className="mt-3 mb-5">Scss</h4>
+            </div>
+            <div className="col-6 col-sm-3 text-center">
+              <img
+                className="skillTecIcon"
                 src={`${import.meta.env.VITE_IMG_URL}/node.png`}
                 alt=""
               />
               <h4 className="mt-3 mb-5">Node.js</h4>
+            </div>
+            <div className="col-6 col-sm-3 text-center">
+              <img
+                className="skillTecIcon"
+                src={`${import.meta.env.VITE_IMG_URL}/express.png`}
+                alt=""
+              />
+              <h4 className="mt-3 mb-5">ExpressJS</h4>
+            </div>
+            <div className="col-6 col-sm-3 text-center">
+              <img
+                className="skillTecIcon"
+                src={`${import.meta.env.VITE_IMG_URL}/nest.png`}
+                alt=""
+              />
+              <h4 className="mt-3 mb-5">NestJS</h4>
             </div>
             <div className="col-6 col-sm-3 text-center">
               <img
