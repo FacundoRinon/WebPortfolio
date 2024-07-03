@@ -100,6 +100,14 @@ function MySkills() {
             <div className="col-6 col-sm-3 text-center">
               <img
                 className="skillTecIcon"
+                src={`${import.meta.env.VITE_IMG_URL}/JS.png`}
+                alt=""
+              />
+              <h4 className="mt-3 mb-5">TypeScript</h4>
+            </div>
+            <div className="col-6 col-sm-3 text-center">
+              <img
+                className="skillTecIcon"
                 src={`${import.meta.env.VITE_IMG_URL}/css.png`}
                 alt=""
               />
