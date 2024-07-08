@@ -10,7 +10,7 @@ function MyProjects() {
           </Link>
           <div className="col-3 fotito">
             <img
-              src={`${import.meta.env.VITE_IMG_URL}/project.webp`}
+              src={`${import.meta.env.VITE_IMG_URL}/projects.jpg`}
               alt="Foto"
             />
           </div>
