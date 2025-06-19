@@ -9,7 +9,10 @@ function MyInfo() {
             <i className="bi bi-arrow-left fs-1 ps-sm-5 fs-1 text-white"></i>
           </Link>
           <div className="col-3 fotito">
-            <img src={`${import.meta.env.VITE_IMG_URL}/yo.jpeg`} alt="Foto" />
+            <img
+              src={`${import.meta.env.VITE_IMG_URL}/linkedInPhoto.jpeg`}
+              alt="Foto"
+            />
           </div>
           <div className="col-8">
             <h1 className="nombre text-white">Facundo Riñón</h1>
