@@ -7,7 +7,7 @@ function Sidebar() {
       <div id="sidebar" className="text-center">
         <img
           id="homePic"
-          src={`${import.meta.env.VITE_IMG_URL}/yo.jpeg`}
+          src={`${import.meta.env.VITE_IMG_URL}/linkedInPhoto.jpeg`}
           alt="Foto"
         />
         <h3 className="tw">Facundo Riñón</h3>
